@@ -1,5 +1,5 @@
 import { Feedback } from './Feedback/Feedback';
-import Counter from './Counter/Counter';
+// import Counter from './Counter/Counter';
 
 export const App = () => {
   return (
