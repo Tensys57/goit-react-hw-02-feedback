@@ -4,7 +4,7 @@ import Value from './Value';
 
 import css from './Counter.module.css';
 
-export class Counter extends React.Component {
+export default class Counter extends React.Component {
   static defaultProps = {
     initialValue: 0,
   };

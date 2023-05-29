@@ -10,11 +10,21 @@
 }
 
 .feedbackBtn {
-  border-radius: 3px;
+  font-size: 24px;
+  border-radius: 5px;
   border-style: hidden;
-  padding: 3px 6px;
+  padding: 8px 32px;
+}
+
+.statBox {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .statTitle {
-  font-size: 18px;
+  margin: 8px 0;
+  font-size: 32px;
+  font-weight: 600;
 }
