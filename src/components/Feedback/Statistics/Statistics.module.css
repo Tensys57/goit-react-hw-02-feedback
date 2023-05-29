@@ -1,0 +1,18 @@
+.title {
+  font-weight: 600;
+  color: '#010101';
+  margin-bottom: 24px;
+}
+
+.statBox {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.statTitle {
+  margin: 8px 0;
+  font-size: 32px;
+  font-weight: 600;
+}

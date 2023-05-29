@@ -1,0 +1,17 @@
+.title {
+  font-weight: 600;
+  color: '#010101';
+}
+
+.buttonBox {
+  display: flex;
+  gap: 20px;
+  justify-items: center;
+}
+
+.feedbackBtn {
+  font-size: 24px;
+  border-radius: 5px;
+  border-style: hidden;
+  padding: 8px 32px;
+}
