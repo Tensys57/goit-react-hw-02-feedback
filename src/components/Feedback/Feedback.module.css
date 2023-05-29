@@ -1,0 +1,20 @@
+.title {
+  font-weight: 600;
+  color: '#010101';
+}
+
+.buttonBox {
+  display: flex;
+  gap: 20px;
+  justify-items: center;
+}
+
+.feedbackBtn {
+  border-radius: 3px;
+  border-style: hidden;
+  padding: 3px 6px;
+}
+
+.statTitle {
+  font-size: 18px;
+}
