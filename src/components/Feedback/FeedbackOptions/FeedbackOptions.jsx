@@ -1,7 +1,7 @@
 import css from './FeedbackOptions.module.css';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
-  const { good, neutral, bad } = options;
+  // const { good, neutral, bad } = options;
   return (
     <div>
       <h4 className={css.title}>Please leave feedback</h4>
