@@ -1,4 +1,6 @@
+import { Component } from 'react';
 import { Feedback } from './Feedback/Feedback';
+
 // import Counter from './Counter/Counter';
 
 export const App = () => {
