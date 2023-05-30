@@ -1,11 +1,11 @@
-import React from 'react';
+import { Component } from 'react';
 // import PropTypes from 'prop-types';
 
 // import css from './Feedback.module.css';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Statistics } from './Statistics/Statistics';
 
-export class Feedback extends React.Component {
+export class Feedback extends Component {
   state = {
     good: 0,
     neutral: 0,
