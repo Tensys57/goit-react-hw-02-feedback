@@ -1,4 +1,5 @@
 import css from './Statistics.module.css';
+import { Notification } from '../Notification/Notification';
 
 export const Statistics = ({
   good,
@@ -10,7 +11,6 @@ export const Statistics = ({
   if (good + neutral + bad !== 0) {
     return (
       <div className={css.statBox}>
-        <h4 className={css.title}>Statistics</h4>
         <p className={css.statTitle}>Good: {good}</p>
         <p className={css.statTitle}>Neutral: {neutral}</p>
         <p className={css.statTitle}>Bad: {bad}</p>
@@ -22,9 +22,8 @@ export const Statistics = ({
     );
   } else {
     return (
-      <div className={css.statBox}>
-        <h4 className={css.title}>Statistics</h4>
-        <p className={css.statTitle}>There is no feedback</p>
+      <div className={css.statBoxNotif}>
+        <Notification />
       </div>
     );
   }

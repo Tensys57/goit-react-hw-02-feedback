@@ -1,0 +1,9 @@
+.statTitle {
+  margin: 8px 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.statBoxNotif {
+  align-items: center;
+}

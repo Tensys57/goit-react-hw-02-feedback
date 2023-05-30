@@ -11,6 +11,8 @@
 
 .feedbackBtn {
   font-size: 24px;
+  color: blue;
+  text-transform: capitalize;
   border-radius: 5px;
   border-style: hidden;
   padding: 8px 32px;
