@@ -1,7 +1,5 @@
 import { Component } from 'react';
 
-import PropTypes from 'prop-types';
-
 import { Section } from './Feedback/Section/Section';
 import { FeedbackOptions } from './Feedback/FeedbackOptions/FeedbackOptions';
 import { Statistics } from './Feedback/Statistics/Statistics';
@@ -64,13 +62,3 @@ export class App extends Component {
     );
   }
 }
-App.propTypes = {
-  title: PropTypes.string.isRequired,
-  options: PropTypes.string.isRequired,
-  onLeaveFeedback: PropTypes.string.isRequired,
-  good: PropTypes.number.isRequired,
-  neutral: PropTypes.number.isRequired,
-  bad: PropTypes.number.isRequired,
-  total: PropTypes.string.isRequired,
-  positivePercentage: PropTypes.string.isRequired,
-};
