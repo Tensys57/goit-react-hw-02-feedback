@@ -8,7 +8,7 @@ export const Statistics = ({
   total,
   positivePercentage,
 }) => {
-  if (good + neutral + bad !== 0) {
+  if (total !== 0) {
     return (
       <div className={css.statBox}>
         <p className={css.statTitle}>Good: {good}</p>
