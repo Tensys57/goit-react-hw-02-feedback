@@ -1,5 +1,10 @@
+import PropTypes from 'prop-types';
 import css from './Notification.module.css';
 
-export const Notification = () => (
-  <p className={css.statTitle}>There is no feedback</p>
+export const Notification = ({ message }) => (
+  <p className={css.statTitle}>{message}</p>
 );
+
+Notification.propType = {
+  message: PropTypes.string.isRequired,
+};

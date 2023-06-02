@@ -23,7 +23,7 @@ export const Statistics = ({
   } else {
     return (
       <div className={css.statBoxNotif}>
-        <Notification />
+        <Notification message="There is no feedback" />
       </div>
     );
   }
