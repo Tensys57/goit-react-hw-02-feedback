@@ -5,13 +5,13 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <div>
       <div className={css.buttonBox}>
-        {options.map((option, index) => (
+        {options.map(option => (
           <button
-            key={index}
+            key={option}
             type="button"
             className={css.feedbackBtn}
             name={option}
-            onClick={onLeaveFeedback}
+            onClick={() => onLeaveFeedback(option)}
           >
             {`${option}`}
           </button>

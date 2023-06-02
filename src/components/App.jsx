@@ -10,9 +10,8 @@ export class App extends Component {
     neutral: 0,
     bad: 0,
   };
-  onClickHandler = event => {
-    const name = event.target.name;
-    this.setState(prevState => ({ [name]: prevState[name] + 1 }));
+  onClickHandler = option => {
+    this.setState(prevState => ({ [option]: prevState[option] + 1 }));
   };
 
   countTotalFeedback = () => {
